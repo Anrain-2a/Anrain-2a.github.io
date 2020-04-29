@@ -1,4 +1,4 @@
-*{
+/**{
 margin: 0;
 padding: 0;
 }
@@ -11,7 +11,7 @@ list-style: none;
 }
 body{
     font-family: 'Montserrat', sans-serif;
-}
+}*/
 /*.logo {
 background: #ffffff;
 width: 100%;
@@ -24,17 +24,53 @@ max-width: 100%;
 box-sizing: border-box;
 }*/
 header {
+width: 100%;
+max-width: 1440px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 30px;
 display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+font-weight: normal;
+}
+.nav {
+list-style-type: none;
+display: flex;
+justify-content: flex-start;
+font-size: 14px;
+align-items: center;
+font-weight: normal;
 }
 
-nav {
-    margin: auto;
-    width: 800px;
-    height: 100px;
+a {
+text-decoration: none;
+
 }
-.topnav a{
-    color: #000;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 15px;
+.nav>li {
+    margin-left: 15px;
+    }
+.nav>li>a {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+}
+
+.nav_button_login {
+background-color: #FFFFFF;
+border-radius: 22px;
+padding: 10px 15px;
+color: #BC9CFF;
+}
+.nav_button_reg {
+border-radius: 22px;
+padding: 10px 15px;
+color: #FFFFFF;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%)
+
 }
