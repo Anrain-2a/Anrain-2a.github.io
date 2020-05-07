@@ -1,0 +1,141 @@
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/image_first_page.png);
+    /*background-size: auto auto;*/
+    
+
+    }
+.header {
+width: 100%;
+max-width: 1440px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+font-weight: normal;
+background-color: #FFFFFF;
+}
+
+.header__navigation {
+list-style-type: none;
+display: flex;
+justify-content: flex-start;
+font-size: 14px;
+align-items: center;
+font-weight: normal;
+}
+
+
+.header__list {
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+    }
+
+
+.header__button__login {
+background-color: #FFFFFF;
+border-radius: 22px;
+padding: 10px 15px;
+color: #BC9CFF;
+}
+.header__button__reg {
+border-radius: 22px;
+padding: 10px 15px;
+color: #FFFFFF;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%)
+
+}
+.text-page {
+    position: absolute;
+    width: 297px;
+    height: 48px;
+    left: 1009px;
+    top: 834px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+        
+    text-align: right;
+           
+    color: rgba(31, 32, 65, 0.75);
+}
+.footer__text {
+    position: absolute;
+    width: 260px;
+    height: 72px;
+    left: 140px;
+    top: 1060px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+        
+    color: rgba(31, 32, 65, 0.75);
+}
+.footer__navigation__1 {
+    position: absolute;
+    width: 143px;
+    height: 168px;
+    left: 440px;
+    top: 1004px;
+    
+}
+.footer__navigation__2 {
+    position: absolute;
+    width: 108px;
+    height: 168px;
+    left: 640px;
+    top: 1004px;
+}
+.footer__navigation__3 {
+    position: absolute;
+    width: 149px;
+    height: 130px;
+    left: 840px;
+    top: 1004px;
+}
+.footer__navigation__4 {
+    position: absolute;
+    width: 260px;
+    height: 84px;
+    left: 1040px;
+    top: 1004px;
+}
+
+.footer__logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 1000px;
+
+}
+/*.nav_footer_list {
+    position: absolute;
+    left: 440px;
+    top: 1040px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(31, 32, 65, 0.5);
+}*/

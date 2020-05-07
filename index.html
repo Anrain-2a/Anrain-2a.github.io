@@ -4,84 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toxin</title>
-    <!--<link rel="stylesheet" href="css/style.css">--> 
+    <link rel="stylesheet" href="css/style.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body class="body">
 
-    <header class="header">
-            <div class="header__logo">
-                <a class="header__logo logo__link" href="index.html"> <img class="header__logo__img" src="img/Logo.svg" alt=""></a>
-            </div>    
-            <nav >
-                <ul class="header__navigation">
-                    <li><a class="header__list" href="index.html">Home</a></li>
-                    <li><a class="header__list" href="about.html">About us</a></li>
-                    <li><a class="header__list" href="services.html">Services</a></li>
-                    <li><a class="header__list" href="careers.html">Careers</a></li>
-                    <li><a class="header__list" href="news.html">News</a></li>
-                    <li><a class="header__list" href="Documentation.html">Documentation</a></li>
-                    <li><button class ="header__button__login" type="button">LOGIN<button></li>
-                    <li><button class ="header__button__reg" type="button">REGISTER<button></li>        
+    <header class="main-header">
+            <nav class="main-navigation"> 
+                <a class="header__logo" href="index.html"> <img class="header__logo__img" src="img/Logo.svg" alt=""></a>
+                <ul class="site-navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="Documentation.html">Documentation</a></li>
+                </ul>
+                <ul class="user-navigation">
+                    <li><a class ="login" href="login.html">LOGIN</a></li>
+                    <li><a class ="registration" href="registration.html">REGISTER</a></li>        
                 </ul>
             </nav>
     </header>
-        <div class="text-page">
-            <p>Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
-        </div> 
-    <footer class="footer">
-        <div class="footer__logo">
-            <a class="footer__logo logo__link" href="index.html"> <img class="graficlogo" src="img/Logo.svg" alt=""></a>
-        </div>
-        <div class="footer__text"> 
-            <p>Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</p>
-        </div>
-        <section class="footer__navigation__1">
-            <h1>Навигация</h1>
-            <ul class="nav_footer_list">
-                <li>О нас</li>
-                <li>Новости</li>
-                <li>Служба поддержки</li> 
-                <li>Услуги</li>  
-            </ul>
-        </section>        
-        <section class="footer__navigation__2">
-            <h1>О нас</h1>
-            <ul class="nav_footer_list">
-                <li>О сервисе</li>
-                <li>Наша команда</li>
-                <li>Вакансии</li> 
-                <li>Инвесторы</li>  
-            </ul>
-        </section>        
-        <section class="footer__navigation__3">
-            <h1>Служба поддержки</h1>
-            <ul class="nav_footer_list">
-                <li>Соглашения</li>
-                <li>Сообщества</li>
-                <li>Связь с нами</li> 
-            </ul>
-        </section>        
-        <section class="footer__navigation__4">
-            <h1>Подписка</h1>
-            <p>Получайте специальные<br> предложения и новости сервиса</p>
-        </section>        
-        <form class="button-search" action="URL">
-            <input class="search" type="email" value="Email">
-            <button class="button-search__img-link"><img class="arrow" src="img/arrow.svg" alt=""></button>
-        </form>
-    </footer>    
-    <footer class="footer-2">
-        <div class="footer-2__text"> 
-            <p>Copyright © 2018 Toxin отель. Все права защищены.</p>
-        </div>
-        <ul class="social-buttons">
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
 
+    <main class="container">
+        <h1 class="visually-hidden">Отель "Tohin"</h1>
+        <section class="room-choices">
+        <h2>Найдем номера под ваши пожелания</h2>
+        
+        </section>    
+
+        <div>
+            <p class="text">Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
+        </div> 
+
+    </main>    
+
+        
+    <footer class="main-footer">
+        <div>
+            <a class="footer__logo" href="index.html"> <img class="graficlogo" src="img/Logo.svg" alt=""></a>
+            <p class="text">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</p>
+        </div>    
+        <nav class="footer__navigation list-1">
+            <h3>Навигация</h3>
+            <ul class="nav_footer_list">
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="suppor.html">Служба поддержки</a></li> 
+                <li><a href="services.html">Services</a></li> 
+            </ul>
+        </nav>        
+        <nav class="footer__navigation list-2">
+            <h3>О нас</h3>
+            <ul class="nav_footer_list">
+                <li><a href="AboutServiсe.html">О сервисе</a></li>
+                <li><a href="Team.html">Наша команда</a></li>
+                <li><a href="careers.html">Вакансии</a></li>
+                <li><a href="investors.html">Инвесторы</a></li>  
+            </ul>
+        </nav>        
+        <nav class="footer__navigation list-3">
+            <h3>Служба поддержки</h3>
+            <ul class="nav_footer_list">
+                <li><a href="Documentation.html">Соглашения</a></li>
+                <li><a href="socialMedia.html">Сообщества</a></li>
+                <li><a href="contacts.html">Связь с нами</a></li> 
+            </ul>
+        </nav>        
+        <div class="list-4">
+            <h3>Подписка</h3>
+            <p class="text">Получайте специальные<br> предложения и новости сервиса</p>
+            <form class="button-search" action="URL">
+                <input class="search" type="email" value="Email">
+                <button class="button-search__img-link"></button>
+            </form>
+        </div>        
+    </footer> 
+
+    <footer class="footer-2">
+        <div> 
+            <p class="footer-2__text">Copyright © 2018 Toxin отель. Все права защищены.</p>
+      
+            <ul class="social-buttons">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
     </footer>    
+
     <script src="js/script.js"></script>
 </body>
 </html>
