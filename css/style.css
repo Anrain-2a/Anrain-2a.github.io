@@ -59,3 +59,48 @@ a {
     color: #FFFFFF;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%)
 }
+.visually-hidden {
+    visibility: hidden;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.footer__navigation {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.nav_footer_list{
+    list-style: none;
+}
+.nav_footer_list a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+}
+.footer-2__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.social-buttons{
+    list-style: none;
+
+}
+
+.Twitter {
+    background-image: url(../img/twitter.svg);
+    background-repeat: no-repeat;
+}
