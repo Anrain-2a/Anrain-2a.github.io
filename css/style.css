@@ -7,41 +7,68 @@ body {
     line-height: 15px;
     font-weight: bold;
     color:  #1F2041;
-    text-transform: uppercase;
 
     background-color: #ffffff;
     background-image: url(../img/image_first_page.png);
     background-position: top center;
     background-repeat: no-repeat;
+
+
 }
 
 a {
     text-decoration: none;
 }
 
-/*.main-header {
-    position: absolute;
+.container {
+   /* display: flex;
+    justify-content: center;*/
+
+    width: 1534px;
+    height: 1022px;
+
+}
+
+.main-header {
+    /*position: absolute;
     width: 1440px;
     height: 70px;
     left: 0px;
-    top: 0px;
+    top: 0px;*/
     
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-
-}*/
+}
 
 .main-navigation {
     font-size: 14px;
     line-height: 17px;
 
+    display: flex;
+    justify-content: space-around;
+
     color: rgba(31, 32, 65, 0.5);
     background-color: #ffffff;
 }
 
+.header__logo {
+    display: flex;
+    justify-content:left;
+}
+
+.site-navigation li,
+.user-navigation li {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
 .site-navigation,
 .user-navigation {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;  
 }
 
 .site-navigation a {
@@ -69,15 +96,43 @@ a {
     font-size: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
+
+    /*display: inline-flex;*/
 }
+
+.main-footer {
+    background-color: #FFFFFF;
+    min-width: 1440;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
 .footer__navigation {
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    text-transform: uppercase;
     color: #1F2041;
+
 }
+
+/*.list-0   {
+    width: 260px;
+
+}
+.list-1 {
+    width: 143px;
+}
+
+.list-2 {
+    width: 108px;
+}
+
+.list-3 {
+    width: 260px;
+}*/
 .nav_footer_list{
     list-style: none;
 }
@@ -94,13 +149,30 @@ a {
     font-size: 14px;
     line-height: 17px;
     color: rgba(31, 32, 65, 0.75);
+    background-color: #FFFFFF;
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-left: 50px;
 }
 .social-buttons{
     list-style: none;
-
+    
+    display: flex;
+    justify-content: flex-end;
 }
 
-.Twitter {
+.twitter {
     background-image: url(../img/twitter.svg);
     background-repeat: no-repeat;
 }
+.facebook {
+    background-image: url(../img/facebook.svg);
+    background-repeat: no-repeat;
+}
+.instagram {
+    background-image: url(../img/facebook.svg);
+    background-repeat: no-repeat;
+}
+
