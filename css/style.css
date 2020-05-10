@@ -100,14 +100,14 @@ a {
     /*display: inline-flex;*/
 }
 
-.main-footer {
+
+ .footer-container {
     background-color: #FFFFFF;
     min-width: 1440;
     display: flex;
     justify-content: space-around;
-
-}
-
+   
+ }
 
 .footer__navigation {
     font-style: normal;
