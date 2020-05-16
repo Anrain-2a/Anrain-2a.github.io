@@ -104,7 +104,8 @@ a {
     /*display: inline-flex;*/
 }
 
-.main-footer {
+
+ .footer-container {
     background-color: #FFFFFF;
     min-width: 1440;
 }
@@ -112,9 +113,8 @@ a {
 .footer-container{
     display: flex;
     justify-content: space-around;
-
-}
-
+   
+ }
 
 
 .footer__navigation {
