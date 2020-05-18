@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="less/UlStyle.less"> 
     <title>Ul-Kit</title>
+    <link rel="stylesheet" href="less/UlStyle.css"> 
 </head>
 <body>
-    
-    <section class="room-choices">
-        <h2>Найдем номера под ваши пожелания</h2>
-        <input>
-        </section> 
+    <label for="email">TEXT FIELD<label>
+    <br> <input name="email" class="text-field email" type="email" value="Email">
 
+    <br><label for="Guests">DROPDOWN</label>
+    <br><input name="Guests-button" class="text-field Guests" type="button" Value="Сколько гостей">
 
+    <br><label>MASKED TEXT FIELD</label>
+    <br><input name="date-text" class="text-field date" type="text" placeholder="ДД.ММ.ГГГГ." pattern="[0-31]{2}.[0-12]{2}[0-9]{4}">    
 
-<>
+    <br><label>DATE DROPDOWN</label>
+    <br><input name="text-field date-dropdown" type="date" placeholder="ДД.ММ.ГГГГ.">
+        
+    <form name="Guests-form">
+       <br><label>Взрослые<input name="adult" type="number"></label>
+       <br><label>Дети<input name="children" type="number"></label>
+       <br><label>Младенцы<input name="baby" type="number"></label>
+    </form>    
 
 
 
