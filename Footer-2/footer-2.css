@@ -1,0 +1,38 @@
+.footer-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-2__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.75);
+    background-color: #FFFFFF;
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+.social-buttons{
+    list-style: none;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.twitter {
+    background-image: url(images/twitter.svg);
+    background-repeat: no-repeat;
+}
+.facebook {
+    background-image: url(images/facebook.svg);
+    background-repeat: no-repeat;
+}
+.instagram {
+    background-image: url(images/insta.svg);
+    background-repeat: no-repeat;
+}
